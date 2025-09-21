@@ -1,28 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 Bitshot - URL Shortener
 
-## Getting Started
+Bitshot is a simple and modern **URL shortener** built with **Next.js** and **Tailwind CSS**.  
+It allows users to convert long, messy URLs into short, shareable links instantly.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔑 Shorten long URLs into clean links  
+- 📋 Copy shortened links with one click  
+- 🎨 Beautiful UI powered by Tailwind CSS  
+- ⚡ Fast and optimized with Next.js  
+- 🌐 Deployed on Vercel for seamless performance
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-- Screenshots :
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<img src="./Screenshots/home.png" alt="Home Page" width="700"/>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+<img src="./Screenshots/s2.png" alt="Shortner Page" width="700"/>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
+
+- **Frontend:** [Next.js](https://nextjs.org/), [React](https://react.dev/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **Deployment:** [Vercel](https://vercel.com/)  
+- **Utilities:** Custom helper functions in `lib/`
+
+
+## ⚙️ Installation & Setup
+
+Clone the repo and run the project locally:
+
+# Clone the repo
+git clone https://github.com/purakh/Bitshot.git
+
+# Navigate into the folder
+cd Bitshot
+
+# Install dependencies
+npm install   # or yarn install
+
+# Start development server
+npm run dev   # or yarn dev
+Now open http://localhost:3000 in your browser 
